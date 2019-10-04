@@ -1,0 +1,253 @@
+{
+  "mapid": "1",
+  "name": "Hackney's Autumn",
+  "abstract": "What can you do in Hackney this Autumn? Choose an activity and see what's on offer.",
+  "layergroups": [
+    {
+      "name": "autumn walk",
+      "groupicon": "css/images/marker-icon.png",
+      "grouptext": "Autumn walks"
+    },
+    {
+      "name": "activities",
+      "groupicon": "css/images/marker-icon.png",
+      "grouptext": "Half term activities"  
+    },
+    {
+      "name": "spooky spot",
+      "groupicon": "css/images/marker-icon.png",
+      "grouptext": "Spooky spots"
+    },
+    {
+      "name": "firework",
+      "groupicon": "css/images/marker-icon.png",
+      "grouptext": "Firework fun"
+    }
+  ],
+  
+  "layers": [
+    {
+      "title": "Wild walks",
+      "geoserverLayerName": "transport:wild_walk",
+      "groups": [ "autumn walk"],
+      "searchable": "false",
+      "sortorder": "30",
+      "icon": "route",
+      "markercolour": "darkpurple",
+      "metadata": "",
+      "popup": {
+        "popuptitlefield": "name",
+        "popupfields": [
+          {
+            "fieldlabel": "",
+            "fieldname": "description"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "link"
+          }
+        ]
+      }
+    }, 
+    
+    {
+      "title": "Adventure playgrounds",
+      "geoserverLayerName": "amenity:adventure_playground",
+      "groups": [ "activities"],
+      "searchable": "false",
+      "sortorder": "4",
+      "icon": "sledding",
+      "markercolour": "black",
+      "metadata": "",
+      "popup": {
+        "popuptitlefield": "name",
+        "popupfields": [
+          {
+            "fieldlabel": "",
+            "fieldname": "link"
+          }
+        ]
+      }
+    }, 
+    {
+      "title": "Museums",
+      "geoserverLayerName": "amenity:museum",
+      "groups": [ "activities"],
+      "searchable": "false",
+      "sortorder": "4",
+      "icon": "university",
+      "markercolour": "black",
+      "metadata": "",
+      "popup": {
+        "popuptitlefield": "name",
+        "popupfields": [
+          {
+            "fieldlabel": "",
+            "fieldname": "description"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "link"
+          }
+        ]
+      }
+    }, 
+    {
+      "title": "Spooky spots",
+      "geoserverLayerName": "statmap:usr_mvill_spooky_place",
+      "groups": [ "spooky spot"],
+      "searchable": "false",
+      "sortorder": "4",
+      "icon": "ghost",
+      "markercolour": "black",
+      "metadata": "",
+      "popup": {
+        "popuptitlefield": "name",
+        "popupfields": []
+      }
+    }, 
+    {
+      "title": "Museums",
+      "geoserverLayerName": "amenity:museum",
+      "groups": [ "activities"],
+      "searchable": "false",
+      "sortorder": "4",
+      "icon": "university",
+      "markercolour": "black",
+      "metadata": "",
+      "popup": {
+        "popuptitlefield": "name",
+        "popupfields": [
+          {
+            "fieldlabel": "",
+            "fieldname": "description"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "link"
+          }
+        ]
+      }
+    }, 
+    {
+      "title": "Autumn events",
+      "geoserverLayerName": "statmap:usr_mvill_autumn_event",
+      "groups": [ "activities"],
+      "searchable": "false",
+      "sortorder": "4",
+      "icon": "users",
+      "markercolour": "red",
+      "metadata": "",
+      "popup": {
+        "popuptitlefield": "name",
+        "popupfields": [
+          {
+            "fieldlabel": "",
+            "fieldname": "location"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "additional_info"
+          }
+        ]
+      }
+    }, 
+    {
+      "title": "Public libraries",
+      "geoserverLayerName": "amenity:public_library",
+      "groups": [ "activities"],
+      "searchable": "false",
+      "sortorder": "4",
+      "icon": "book",
+      "markercolour": "red",
+      "metadata": "",
+      "popup": 
+      {
+        "popuptitlefield": "",
+        "popupfields":[
+          {
+            "fieldlabel":"",
+            "fieldname":"name"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Playgrounds",
+      "geoserverLayerName": "amenity:playground_park_estate_merge",
+      "groups": [ "activities"],
+      "searchable": "false",
+      "sortorder": "100",
+      "icon": "child",
+      "markercolour": "orange",
+      "metadata": "",
+      "popup": 
+      {
+        "popuptitlefield": "",
+        "popupfields":[
+          {
+            "fieldlabel":"",
+            "fieldname":"location"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Walking routes",
+      "geoserverLayerName": "statmap:walking_route_point",
+      "groups": [ "autumn walk"],
+      "searchable": "false",
+      "sortorder": "12",
+      "icon": "leaf-maple",
+      "markercolour": "green",
+      "metadata": "",
+      "popup": {
+        "popuptitlefield": "",
+        "popupfields": [
+          {
+            "fieldlabel": "",
+            "fieldname": "link"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Cafes in Parks",
+      "geoserverLayerName": "amenity:park_cafe",
+      "groups": [ "autumn walk"],
+      "searchable": "false",
+      "sortorder": "13",
+      "icon": "coffee",
+      "markercolour": "orange",
+      "metadata": "",
+      "popup": 
+      {
+        "popuptitlefield": "location",
+        "popupfields":[
+          {
+            "fieldlabel":"",
+            "fieldname":"comments"
+          }
+        ]
+      }
+    },
+
+    {
+      "title": "Waterway walks",
+      "geoserverLayerName": "transport:waterway_walk",
+      "groups": [ "autumn walk"],
+      "searchable": "false",
+      "sortorder": "22",
+      "icon": "horizontal-rule",
+      "markercolour": "cadetblue",
+      "metadata": "",
+      "popup": {
+        "popuptitlefield": "",
+        "popupfields": []
+      }
+
+    }
+    
+     
+      ]
+}
