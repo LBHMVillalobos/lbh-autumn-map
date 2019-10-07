@@ -5,25 +5,27 @@
   "layergroups": [
     {
       "name": "autumn walk",
-      "groupicon": "css/images/marker-icon.png",
+      "groupicon": " ",
       "grouptext": "Autumn walks"
     },
     {
       "name": "activities",
-      "groupicon": "css/images/marker-icon.png",
+      "groupicon": " ",
       "grouptext": "Half term activities"  
     },
     {
       "name": "spooky spot",
-      "groupicon": "css/images/marker-icon.png",
+      "groupicon": "css/images/scarecrow-duotone.svg",
       "grouptext": "Spooky spots"
     },
     {
       "name": "firework",
-      "groupicon": "css/images/marker-icon.png",
+      "groupicon": " ",
       "grouptext": "Firework fun"
     }
   ],
+
+
   
   "layers": [
     {
@@ -105,30 +107,7 @@
         "popuptitlefield": "name",
         "popupfields": []
       }
-    }, 
-    {
-      "title": "Museums",
-      "geoserverLayerName": "amenity:museum",
-      "groups": [ "activities"],
-      "searchable": "false",
-      "sortorder": "4",
-      "icon": "university",
-      "markercolour": "black",
-      "metadata": "",
-      "popup": {
-        "popuptitlefield": "name",
-        "popupfields": [
-          {
-            "fieldlabel": "",
-            "fieldname": "description"
-          },
-          {
-            "fieldlabel": "",
-            "fieldname": "link"
-          }
-        ]
-      }
-    }, 
+    },  
     {
       "title": "Autumn events",
       "geoserverLayerName": "statmap:usr_mvill_autumn_event",
@@ -153,21 +132,44 @@
       }
     }, 
     {
-      "title": "Public libraries",
-      "geoserverLayerName": "amenity:public_library",
+      "title": "Events in libraries & Museums",
+      "geoserverLayerName": "statmap:usr_mvill_event_libraries",
       "groups": [ "activities"],
       "searchable": "false",
       "sortorder": "4",
       "icon": "book",
       "markercolour": "red",
       "metadata": "",
-      "popup": 
-      {
-        "popuptitlefield": "",
-        "popupfields":[
+      "popup": {
+        "popuptitlefield": "facility_name",
+        "popupfields": [
           {
-            "fieldlabel":"",
-            "fieldname":"name"
+            "fieldlabel": "",
+            "fieldname": "event1_name"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "event1_info"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "event2_name"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "event2_info"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "event3_name"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "event3_info"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "notes"
           }
         ]
       }
