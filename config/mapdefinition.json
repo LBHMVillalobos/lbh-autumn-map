@@ -5,12 +5,12 @@
   "layergroups": [
     {
       "name": "autumn walk",
-      "groupicon": " ",
+      "groupicon": "css/images/leaf-maple-duotone.svg",
       "grouptext": "Autumn walks"
     },
     {
       "name": "activities",
-      "groupicon": " ",
+      "groupicon": "css/images/mask-duotone.svg",
       "grouptext": "Half term activities"  
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "name": "firework",
-      "groupicon": " ",
+      "groupicon": "css/images/star-christmas-duotone.svg",
       "grouptext": "Firework fun"
     }
   ],
