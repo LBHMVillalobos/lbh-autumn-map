@@ -5,26 +5,26 @@
   "layergroups": [
     {
       "name": "autumn walk",
-      "groupicon": "css/images/leaf-maple-duotone-white.svg",
+      "groupicon": "css/images/leaf-maple-duotone-default.svg",
       "groupiconactive": "css/images/leaf-maple-duotone-active.svg",
       "grouptext": "Autumn walks"
     },
     {
       "name": "activities",
-      "groupicon": "css/images/mask-duotone-white.svg",
-      "groupiconactive": "css/images/mask-duotone-active.svg",
+      "groupicon": "css/images/mask-duotone-default.svg",
+      "groupiconactive": "css/images/mask-duotone-active2.svg",
       "grouptext": "Half term activities"  
     },
     {
       "name": "spooky spot",
-      "groupicon": "css/images/scarecrow-duotone-white.svg",
-      "groupiconactive": "css/images/scarecrow-duotone-active.svg",
-      "grouptext": "Halloween thrill"
+      "groupicon": "css/images/scarecrow-duotone-default.svg",
+      "groupiconactive": "css/images/scarecrow-duotone-active2.svg",
+      "grouptext": "Halloween thrills"
     },
     {
       "name": "firework",
-      "groupicon": "css/images/star-christmas-duotone-white.svg",
-      "groupiconactive": "css/images/star-christmas-duotone-active.svg",
+      "groupicon": "css/images/star-christmas-duotone-default.svg",
+      "groupiconactive": "css/images/star-christmas-duotone-active2.svg",
       "grouptext": "Firework fun"
     }
   ],
