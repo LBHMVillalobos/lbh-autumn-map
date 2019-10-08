@@ -25,7 +25,7 @@
       "name": "firework",
       "groupicon": "css/images/star-christmas-duotone-default.svg",
       "groupiconactive": "css/images/star-christmas-duotone-active2.svg",
-      "grouptext": "Firework fun"
+      "grouptext": "Fireworks fun"
     }
   ],
 
@@ -66,7 +66,7 @@
       "searchable": "false",
       "sortorder": "30",
       "icon": "route",
-      "markercolour": "darkpurple",
+      "markercolour": "purple",
       "metadata": "",
       "popup": {
         "popuptitlefield": "name",
@@ -235,7 +235,7 @@
       "searchable": "false",
       "sortorder": "100",
       "icon": "child",
-      "markercolour": "blue",
+      "markercolour": "cadetblue",
       "metadata": "",
       "popup": 
       {
@@ -274,7 +274,7 @@
       "searchable": "false",
       "sortorder": "13",
       "icon": "coffee",
-      "markercolour": "orange",
+      "markercolour": "darkpurple",
       "metadata": "",
       "popup": 
       {
