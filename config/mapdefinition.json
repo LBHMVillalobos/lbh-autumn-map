@@ -33,7 +33,7 @@
   
   "layers": [
     {
-      "title": "Halloween spirit",
+      "title": "Halloween events",
       "geoserverLayerName": "statmap:halloween_event",
       "groups": [ "spooky spot"],
       "searchable": "false",
