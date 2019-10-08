@@ -5,22 +5,26 @@
   "layergroups": [
     {
       "name": "autumn walk",
-      "groupicon": "css/images/leaf-maple-duotone.svg",
+      "groupicon": "css/images/leaf-maple-duotone-white.svg",
+      "groupiconactive": "css/images/leaf-maple-duotone-active.svg",
       "grouptext": "Autumn walks"
     },
     {
       "name": "activities",
-      "groupicon": "css/images/mask-duotone.svg",
+      "groupicon": "css/images/mask-duotone-white.svg",
+      "groupiconactive": "css/images/mask-duotone-active.svg",
       "grouptext": "Half term activities"  
     },
     {
       "name": "spooky spot",
-      "groupicon": "css/images/scarecrow-duotone.svg",
+      "groupicon": "css/images/scarecrow-duotone-white.svg",
+      "groupiconactive": "css/images/scarecrow-duotone-active.svg",
       "grouptext": "Spooky spots"
     },
     {
       "name": "firework",
-      "groupicon": "css/images/star-christmas-duotone.svg",
+      "groupicon": "css/images/star-christmas-duotone-white.svg",
+      "groupiconactive": "css/images/star-christmas-duotone-active.svg",
       "grouptext": "Firework fun"
     }
   ],
@@ -109,6 +113,25 @@
       }
     },  
     {
+      "title": "Hackney fireworks",
+      "geoserverLayerName": "statmap:firework_fun",
+      "groups": [ "firework"],
+      "searchable": "false",
+      "sortorder": "4",
+      "icon": "star-christmas",
+      "markercolour": "orange",
+      "metadata": "",
+      "popup": {
+        "popuptitlefield": "name",
+        "popupfields": [
+          {
+            "fieldlabel": "",
+            "fieldname": "location"
+          }
+        ]
+      }
+    }, 
+    {
       "title": "Autumn events",
       "geoserverLayerName": "statmap:usr_mvill_autumn_event",
       "groups": [ "activities"],
@@ -132,7 +155,7 @@
       }
     }, 
     {
-      "title": "Events in libraries & Museums",
+      "title": "Events in Libraries & Museums",
       "geoserverLayerName": "statmap:usr_mvill_event_libraries",
       "groups": [ "activities"],
       "searchable": "false",

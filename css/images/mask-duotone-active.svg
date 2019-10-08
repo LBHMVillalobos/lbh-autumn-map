@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   aria-hidden="true"
+   focusable="false"
+   data-prefix="fad"
+   data-icon="mask"
+   class="svg-inline--fa fa-mask fa-w-20"
+   role="img"
+   viewBox="0 0 640 512"
+   version="1.1"
+   id="svg1441"
+   sodipodi:docname="mask-duotone-active.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata1447">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1445" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="917"
+     inkscape:window-height="480"
+     id="namedview1443"
+     showgrid="false"
+     inkscape:zoom="0.44375"
+     inkscape:cx="320"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1441" />
+  <g
+     class="fa-group"
+     id="g1439">
+    <path
+       class="fa-secondary"
+       fill="currentColor"
+       d="M320.67 64c-442.6 0-357.57 384-158.46 384 39.9 0 77.47-20.69 101.42-55.86l25.73-37.79c15.66-23 47-23 62.63 0l25.73 37.79C401.66 427.31 439.23 448 479.13 448 669 448 769.76 64 320.67 64zm-56.59 203.31c-12.32 15.4-39 41.05-80.08 41.05s-67.76-25.66-80.08-41.05a18.28 18.28 0 0 1 0-22.63c12.32-15.4 39-41.05 80.08-41.05s67.76 25.66 80.08 41.05a18.28 18.28 0 0 1 0 22.63zm272 0c-12.32 15.4-39 41.05-80.08 41.05s-67.76-25.66-80.08-41.05a18.28 18.28 0 0 1 0-22.63c12.32-15.4 39-41.05 80.08-41.05s67.76 25.66 80.08 41.05a18.28 18.28 0 0 1 0 22.63z"
+       opacity="0.4"
+       id="path1435"
+       style="fill:#556e37;fill-opacity:1" />
+    <path
+       class="fa-primary"
+       fill="currentColor"
+       d="M184 203.63c-41.08 0-67.76 25.65-80.08 41.05a18.28 18.28 0 0 0 0 22.63c12.32 15.39 39 41.05 80.08 41.05s67.76-25.65 80.08-41.05a18.28 18.28 0 0 0 0-22.63c-12.32-15.39-39-41.05-80.08-41.05zm352.08 41.05c-12.32-15.39-39-41.05-80.08-41.05s-67.76 25.65-80.08 41.05a18.28 18.28 0 0 0 0 22.63c12.32 15.39 39 41.05 80.08 41.05s67.76-25.65 80.08-41.05a18.28 18.28 0 0 0 0-22.63z"
+       id="path1437"
+       style="fill:#556e37;fill-opacity:1" />
+  </g>
+</svg>
