@@ -57,6 +57,7 @@ window.addEventListener('resize', function(event){
 var hackney_mask = L.tileLayer.wms("https://map.hackney.gov.uk/geoserver/wms", {
   layers: 'boundaries:hackney_mask',
   transparent: true,
+  //styles: 'boundaries:hackney_mask_autumn',
   format: 'image/png'
 });
 map.addLayer(hackney_mask);
