@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   aria-hidden="true"
+   focusable="false"
+   data-prefix="fad"
+   data-icon="hat-witch"
+   class="svg-inline--fa fa-hat-witch fa-w-18"
+   role="img"
+   viewBox="0 0 576 512"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="hat-witch-duotone-active.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="971"
+     inkscape:window-height="480"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="288"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8" />
+  <g
+     class="fa-group"
+     id="g6">
+    <path
+       class="fa-secondary"
+       fill="currentColor"
+       d="M571.21 426.81l-22.67-22.66c-6-6-15.49-6-22-.43A185.1 185.1 0 0 1 405.88 448H170.1a185.14 185.14 0 0 1-120.68-44.28c-6.5-5.53-16-5.61-22 .43L4.78 426.81c-6.44 6.44-6.45 17.25.4 23.25A248.62 248.62 0 0 0 170.1 512h235.78a248.64 248.64 0 0 0 164.93-61.94c6.84-6 6.84-16.81.4-23.25zM320 352h-64v64h64z"
+       opacity="0.4"
+       id="path2"
+       style="fill:#660066;fill-opacity:1;opacity:1" />
+    <path
+       class="fa-primary"
+       fill="currentColor"
+       d="M542.35 114.76L512 192l-14-42.12A32 32 0 0 0 467.59 128H428.4a32 32 0 0 0-30.4 21.87l-6.35 19a64.06 64.06 0 0 0 1.89 45.45l79.6 185.73A152.57 152.57 0 0 1 405.88 416H352v-64a32 32 0 0 0-32-32h-64a32 32 0 0 0-32 32v64h-53.9a152.51 152.51 0 0 1-67.1-15.81l104-233.86a128.08 128.08 0 0 1 53.46-59.15l166.35-103a32 32 0 0 1 38.5 5.16L534.62 82a32 32 0 0 1 7.73 32.76z"
+       id="path4"
+       style="fill:#000000;fill-opacity:1;opacity:1" />
+  </g>
+</svg>
