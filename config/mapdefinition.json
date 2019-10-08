@@ -159,35 +159,12 @@
       }
     }, 
     {
-      "title": "Autumn events",
-      "geoserverLayerName": "statmap:usr_mvill_autumn_event",
+      "title": "Family events",
+      "geoserverLayerName": "statmap:kid_event",
       "groups": [ "activities"],
       "searchable": "false",
       "sortorder": "4",
       "icon": "users",
-      "markercolour": "red",
-      "metadata": "",
-      "popup": {
-        "popuptitlefield": "name",
-        "popupfields": [
-          {
-            "fieldlabel": "",
-            "fieldname": "location"
-          },
-          {
-            "fieldlabel": "",
-            "fieldname": "additional_info"
-          }
-        ]
-      }
-    }, 
-    {
-      "title": "Events in Libraries & Museums",
-      "geoserverLayerName": "statmap:usr_mvill_event_libraries",
-      "groups": [ "activities"],
-      "searchable": "false",
-      "sortorder": "4",
-      "icon": "book",
       "markercolour": "red",
       "metadata": "",
       "popup": {
