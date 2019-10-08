@@ -130,11 +130,11 @@
           },
           {
             "fieldlabel": "",
-            "fieldname": "description"
-          }, 
+            "fieldname": "additional_info"
+          },
           {
             "fieldlabel": "",
-            "fieldname": "additional_info"
+            "fieldname": "description"
           }
         ]
       }
