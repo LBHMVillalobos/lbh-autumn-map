@@ -33,6 +33,33 @@
   
   "layers": [
     {
+      "title": "Halloween spirit",
+      "geoserverLayerName": "statmap:halloween_event",
+      "groups": [ "spooky spot"],
+      "searchable": "false",
+      "sortorder": "4",
+      "icon": "jack-o-lantern",
+      "markercolour": "orange",
+      "metadata": "",
+      "popup": {
+        "popuptitlefield": "name",
+        "popupfields": [
+          {
+            "fieldlabel": "",
+            "fieldname": "location"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "description"
+          }, 
+          {
+            "fieldlabel": "",
+            "fieldname": "additional_info"
+          }
+        ]
+      }
+    }, 
+    {
       "title": "Wild walks",
       "geoserverLayerName": "transport:wild_walk",
       "groups": [ "autumn walk"],
