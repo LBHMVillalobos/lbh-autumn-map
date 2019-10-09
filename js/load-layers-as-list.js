@@ -127,7 +127,7 @@ function loadLayers(mapConfig) {
                 }                   
               }
             }
-            var popup = L.popup({ closeButton: false }).setContent(stringpopup);
+            var popup = L.popup({ closeButton: true }).setContent(stringpopup);
             layer.bindPopup(popup);
           },
           sortorder: sortorder 
