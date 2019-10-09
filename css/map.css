@@ -21,7 +21,7 @@ html, body, #map {
   text-align: left;
   font-size: 32px;
   font-weight: 600; 
-  font-family: Griffy;
+  /* font-family: Griffy; */
 
 }
 
@@ -39,7 +39,7 @@ html, body, #map {
     line-height: 1.47;
     letter-spacing: normal;
     color: #000000;
-    font-family: Griffy;
+    /* font-family: Griffy; */
 }
 
 @media (min-width: 768px) {
