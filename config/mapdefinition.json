@@ -110,7 +110,12 @@
       "metadata": "",
       "popup": {
         "popuptitlefield": "name",
-        "popupfields": []
+        "popupfields": [
+          {
+            "fieldlabel": "",
+            "fieldname": "description"
+          }
+        ]
       }
     },  
     {
