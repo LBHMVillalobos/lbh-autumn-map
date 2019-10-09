@@ -179,7 +179,7 @@ function createEasyButtons(layerGroup, layers, overlayMaps, layercontrol, n, kee
   button.setAttribute('id', 'persona-button-' + n);
   // reintroduce below line when adding in icons
   
-  button.innerHTML = '<span class="button-icon"><img class="persona-icon" height = 55px src="' + layerGroup.groupIcon + '" alt="'+ layerGroup.alt +'"/><img class="persona-icon-active" height = 80px src="' + layerGroup.groupIconActive + '" alt="'+ layerGroup.alt +'"/></span><span class="button-text">' + layerGroup.groupText + '</span>';
+  button.innerHTML = '<span class="button-icon"><img class="persona-icon" height = 55px src="' + layerGroup.groupIcon + '" alt="'+ layerGroup.alt +'"/><img class="persona-icon-active" height = 55px src="' + layerGroup.groupIconActive + '" alt="'+ layerGroup.alt +'"/></span><span class="button-text">' + layerGroup.groupText + '</span>';
   var mapPersonas = document.getElementById('map-personas');
   mapPersonas.appendChild(button);
   $('#persona-button-' + n).on('click', function(e){
