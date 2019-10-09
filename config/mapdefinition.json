@@ -114,6 +114,10 @@
           {
             "fieldlabel": "",
             "fieldname": "description"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "link"
           }
         ]
       }
