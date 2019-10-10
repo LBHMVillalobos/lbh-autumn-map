@@ -228,6 +228,7 @@ html, body, #map {
 }
 
 .button-icon {
+    display: block;
     position: relative;
     transition: transform 350ms;
 }
@@ -286,8 +287,9 @@ html, body, #map {
     margin: 0 auto;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
     opacity: 0;
+    transform: translateX(-50%);
 }
 
 .persona-button:active .persona-icon-active,
