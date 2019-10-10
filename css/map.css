@@ -121,8 +121,8 @@ html, body, #map {
 .persona-button {
     appearance: none;
     -webkit-appearance: none;
-    background: #ecebeb;
-    border: 0.5px solid #DEE0E2;
+    background: #ECEBEB;
+    border: 1px solid #DEE0E2;
     border-radius: 3px;
     box-sizing: border-box;
     color: #000;
@@ -137,6 +137,20 @@ html, body, #map {
     text-align: center;
     text-decoration: none;
     width: calc(50% - 6px);
+}
+
+@keyframes fade {
+    0% {
+        background: #fff;
+    }
+    100% {
+        background: #ECEBEB;
+    }
+}
+
+.persona-button--loading {
+    background: #fff;
+    animation: fade 2s 0s forwards;
 }
 
 @media (min-width: 768px) {
@@ -161,9 +175,30 @@ html, body, #map {
     color: #ffffff;
 }
 
+.persona-button:nth-child(1):hover .button-icon {
+    transform: rotate(15deg);
+}
+
+.persona-button:nth-child(2):hover .button-icon {
+    transform: scale(1.1, 1.1);
+}
+
+.persona-button:nth-child(3):hover .button-icon {
+    transform: translateY(-5px);
+}
+
+.persona-button:nth-child(4):hover .button-icon {
+    transform: rotate(180deg);
+}
+
 .button-text,
 .button-icon {
     pointer-events: none;
+}
+
+.button-icon {
+    position: relative;
+    transition: transform 350ms;
 }
 
 .persona-icon {
@@ -171,14 +206,31 @@ html, body, #map {
     margin: 0 auto;
 }
 
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.persona-button--loading .persona-icon-active {
+    opacity: 0;
+    animation: hide 2s 0s forwards;
+}
+
 .persona-icon-active {
-    display: none;
     margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
 }
 
 .persona-button:active .persona-icon-active,
 .persona-button--active .persona-icon-active {
-    display: block;
+    opacity: 1;
 }
 
 .persona-button:active,
@@ -191,7 +243,7 @@ html, body, #map {
 
 .persona-button:active .persona-icon,
 .persona-button--active .persona-icon {
-    display: none;
+    opacity: 0;
 }
 
 .button-text {

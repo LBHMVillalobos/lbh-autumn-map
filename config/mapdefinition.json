@@ -64,7 +64,7 @@
       "searchable": "false",
       "sortorder": "4",
       "icon": "sledding",
-      "markercolour": "black",
+      "markercolour": "darkpurple",
       "metadata": "",
       "popup": {
         "popuptitlefield": "name",
@@ -83,7 +83,7 @@
       "searchable": "false",
       "sortorder": "4",
       "icon": "university",
-      "markercolour": "black",
+      "markercolour": "darkgreen",
       "metadata": "",
       "popup": {
         "popuptitlefield": "name",
@@ -106,7 +106,7 @@
       "searchable": "false",
       "sortorder": "4",
       "icon": "ghost",
-      "markercolour": "black",
+      "markercolour": "darkblue",
       "metadata": "",
       "popup": {
         "popuptitlefield": "name",
@@ -156,7 +156,7 @@
       "searchable": "false",
       "sortorder": "4",
       "icon": "star-christmas",
-      "markercolour": "orange",
+      "markercolour": "blue",
       "metadata": "",
       "popup": {
         "popuptitlefield": "name",
@@ -218,7 +218,7 @@
       "searchable": "false",
       "sortorder": "100",
       "icon": "child",
-      "markercolour": "cadetblue",
+      "markercolour": "lightred",
       "metadata": "",
       "popup": 
       {
@@ -257,7 +257,7 @@
       "searchable": "false",
       "sortorder": "13",
       "icon": "coffee",
-      "markercolour": "darkpurple",
+      "markercolour": "darkred",
       "metadata": "",
       "popup": 
       {

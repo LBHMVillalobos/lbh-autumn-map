@@ -1,22 +1,15 @@
 var leafletMarkerColours = {
-  "red": "#d43e2a",
-  "orange": "#F69730",
-  "green": "#70ad26",
-  "blue": "#38aadd",
-  "purple": "#D252BA",
-  "darkred": "#a23336",
-  "darkblue": "#0e67a3",
-  "darkgreen": "#728224",
-  "darkpurple": "#5b396b",
-  "cadetblue": "#436978",
-  "lightred": "#fc8e7f",
-  "beige": "#ffcb92",
-  "lightgreen": "#bbf970",
-  "lightblue": "#8adaff",
-  "pink": "#ff91ea",
-  "lightgray": "#a3a3a3",
-  "gray": "#575757",
-  "black": "#3b3b3b"
+  "red": "#be3a35",
+  "orange": "#ff6b15",
+  "green": "#959300",
+  "blue": "#e6b141",
+  "purple": "#b98d5e",
+  "darkred": "#682146",
+  "darkblue": "#3b3b3b",
+  "darkgreen": "#1c0e3a",
+  "darkpurple": "#b14b1c",
+  "cadetblue": "#772f6d",
+  "lightred": "#e69225"
 }
 
 //READ MAP CONFIG, LOAD ALL LAYERS, PUT THEM IN GROUPS, CREATE ONE LAYER CONTROL AND ONE EASYBUTTON PER GROUP
@@ -176,6 +169,11 @@ function loadLayers(mapConfig) {
 function createEasyButtons(layerGroup, layers, overlayMaps, layercontrol, n, keepAllInLayerControl){
   var button = document.createElement('button');
   button.classList.add('persona-button');
+  button.classList.add('persona-button--loading');
+
+  setTimeout(function() {
+    button.classList.remove('persona-button--loading');
+  }, 2000);
   button.setAttribute('id', 'persona-button-' + n);
   // reintroduce below line when adding in icons
   
