@@ -148,6 +148,33 @@ html, body, #map {
     }
 }
 
+@-webkit-keyframes fade {
+    0% {
+        background: #fff;
+    }
+    100% {
+        background: #ECEBEB;
+    }
+}
+
+@-o-keyframes fade {
+    0% {
+        background: #fff;
+    }
+    100% {
+        background: #ECEBEB;
+    }
+}
+
+@-moz-keyframes fade {
+    0% {
+        background: #fff;
+    }
+    100% {
+        background: #ECEBEB;
+    }
+}
+
 .persona-button--loading {
     background: #fff;
     animation: fade 2s 0s forwards;
@@ -207,6 +234,34 @@ html, body, #map {
 }
 
 @keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@-o-keyframes hide {
     0% {
         opacity: 1;
     }
