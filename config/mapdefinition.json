@@ -164,6 +164,18 @@
           {
             "fieldlabel": "",
             "fieldname": "location"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "description"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "additional_info"
+          },
+          {
+            "fieldlabel": "",
+            "fieldname": "link"
           }
         ]
       }
