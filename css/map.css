@@ -139,25 +139,7 @@ html, body, #map {
     width: calc(50% - 6px);
 }
 
-@keyframes fade {
-    0% {
-        background: #fff;
-    }
-    100% {
-        background: #ECEBEB;
-    }
-}
-
 @-webkit-keyframes fade {
-    0% {
-        background: #fff;
-    }
-    100% {
-        background: #ECEBEB;
-    }
-}
-
-@-o-keyframes fade {
     0% {
         background: #fff;
     }
@@ -175,8 +157,29 @@ html, body, #map {
     }
 }
 
+@-o-keyframes fade {
+    0% {
+        background: #fff;
+    }
+    100% {
+        background: #ECEBEB;
+    }
+}
+
+@keyframes fade {
+    0% {
+        background: #fff;
+    }
+    100% {
+        background: #ECEBEB;
+    }
+}
+
 .persona-button--loading {
     background: #fff;
+    -webkit-animation: fade 2s 0s forwards;
+    -moz-animation: fade 2s 0s forwards;
+    -o-animation: fade 2s 0s forwards;
     animation: fade 2s 0s forwards;
 }
 
@@ -198,6 +201,7 @@ html, body, #map {
 }
 
 .persona-button:hover {
+    animation: none;
     background: #00513F;
     color: #ffffff;
 }
@@ -207,7 +211,7 @@ html, body, #map {
 }
 
 .persona-button:nth-child(2):hover .button-icon {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.15, 1.15);
 }
 
 .persona-button:nth-child(3):hover .button-icon {
@@ -231,15 +235,6 @@ html, body, #map {
 .persona-icon {
     display: block;
     margin: 0 auto;
-}
-
-@keyframes hide {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
 }
 
 @-webkit-keyframes hide {
@@ -270,8 +265,20 @@ html, body, #map {
     }
 }
 
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 .persona-button--loading .persona-icon-active {
     opacity: 0;
+    -webkit-animation: hide 2s 0s forwards;
+    -moz-animation: hide 2s 0s forwards;
+    -o-animation: hide 2s 0s forwards;
     animation: hide 2s 0s forwards;
 }
 
