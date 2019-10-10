@@ -144,7 +144,8 @@ html, body, #map {
     appearance: none;
     -webkit-appearance: none;
     /* background:#daa520; */
-    background: #cc9d3a;
+    /* background: #cc9d3a; */
+    background: #00664F;
     border: 0.5px solid #DEE0E2;
     border-radius: 3px;
     box-sizing: border-box;
