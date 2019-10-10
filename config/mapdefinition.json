@@ -212,26 +212,6 @@
       }
     },
     {
-      "title": "Playgrounds",
-      "geoserverLayerName": "amenity:playground_park_estate_merge",
-      "groups": [ "activities"],
-      "searchable": "false",
-      "sortorder": "100",
-      "icon": "child",
-      "markercolour": "lightred",
-      "metadata": "",
-      "popup": 
-      {
-        "popuptitlefield": "",
-        "popupfields":[
-          {
-            "fieldlabel":"",
-            "fieldname":"location"
-          }
-        ]
-      }
-    },
-    {
       "title": "Walking routes",
       "geoserverLayerName": "statmap:walking_route_point",
       "groups": [ "autumn walk"],
