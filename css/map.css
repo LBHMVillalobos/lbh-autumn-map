@@ -9,6 +9,10 @@ html, body, #map {
   outline: 3px solid #FFBF47;
 }
 
+.map-main {
+    overflow-x: hidden;
+}
+
 /* .page-title {
   margin-top: 56px;
   text-align: left;
@@ -113,42 +117,15 @@ html, body, #map {
         margin: 24px 0;
     }
 }
-/* #persona-button-0{
-    background-image: url("https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/09/06/10/Autumn-Constitution-Hill.jpg");
-    background-size: contain;
-    border-radius: 50%;
-}
-
-#persona-button-1{
-    background-image: url("https://c8.alamy.com/comp/J27X5W/children-helping-parents-to-collect-autumn-leaves-in-garden-J27X5W.jpg");   
-    background-size: contain;
-    border-radius: 50%;
-}
-
-#persona-button-2{
-    background-image: url("https://i.pinimg.com/originals/ba/dc/50/badc50792d39c77b97a40a536dfa2f18.jpg");  
-    background-size: contain; 
-    border-radius: 50%;
-}
-
-#persona-button-3{
-    background-image: url("https://media.timeout.com/images/101717539/630/472/image.jpg");   
-    background-size: contain;
-    border-radius: 50%;
-}
-
-
- */
 
 .persona-button {
     appearance: none;
     -webkit-appearance: none;
-    /* background:#daa520; */
-    background: #cc9d3a;
+    background: #ecebeb;
     border: 0.5px solid #DEE0E2;
     border-radius: 3px;
     box-sizing: border-box;
-    color: white;
+    color: #000;
     cursor: pointer;
     display: block;
     flex-grow: 0;
@@ -183,6 +160,20 @@ html, body, #map {
     background: #00513F;
     color: #ffffff;
 }
+
+.button-text,
+.button-icon {
+    pointer-events: none;
+}
+
+/* .button-icon {
+    opacity: 0.7;
+}
+
+.persona-button:hover .button-icon,
+.persona-button--active .button-icon {
+    opacity: 1;
+} */
 
 .persona-icon {
     display: block;
