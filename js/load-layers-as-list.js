@@ -121,7 +121,8 @@ function loadLayers(mapConfig) {
               }
             }
             var popup = L.popup({ closeButton: true }).setContent(stringpopup);
-            layer.bindPopup(popup);
+            layer.bindPopup(popup,
+              {maxWidth : 210});
           },
           sortorder: sortorder 
         });
