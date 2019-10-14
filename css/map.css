@@ -37,7 +37,7 @@ html, body, #map {
 }
 
 .lead-paragraph {
-    font-size: 19px;
+    font-size: 16px;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.47;
@@ -121,8 +121,8 @@ html, body, #map {
 .persona-button {
     appearance: none;
     -webkit-appearance: none;
-    background: #ecebeb;
-    border: 0.5px solid #DEE0E2;
+    background: #ECEBEB;
+    border: 1px solid #DEE0E2;
     border-radius: 3px;
     box-sizing: border-box;
     color: #000;
@@ -137,6 +137,50 @@ html, body, #map {
     text-align: center;
     text-decoration: none;
     width: calc(50% - 6px);
+}
+
+@-webkit-keyframes fade {
+    0% {
+        background: #fff;
+    }
+    100% {
+        background: #ECEBEB;
+    }
+}
+
+@-moz-keyframes fade {
+    0% {
+        background: #fff;
+    }
+    100% {
+        background: #ECEBEB;
+    }
+}
+
+@-o-keyframes fade {
+    0% {
+        background: #fff;
+    }
+    100% {
+        background: #ECEBEB;
+    }
+}
+
+@keyframes fade {
+    0% {
+        background: #fff;
+    }
+    100% {
+        background: #ECEBEB;
+    }
+}
+
+.persona-button--loading {
+    background: #fff;
+    -webkit-animation: fade 2s 0s forwards;
+    -moz-animation: fade 2s 0s forwards;
+    -o-animation: fade 2s 0s forwards;
+    animation: fade 2s 0s forwards;
 }
 
 @media (min-width: 768px) {
@@ -157,8 +201,25 @@ html, body, #map {
 }
 
 .persona-button:hover {
+    animation: none;
     background: #00513F;
     color: #ffffff;
+}
+
+.persona-button:nth-child(1):hover .button-icon {
+    transform: rotate(15deg);
+}
+
+.persona-button:nth-child(2):hover .button-icon {
+    transform: scale(1.15, 1.15);
+}
+
+.persona-button:nth-child(3):hover .button-icon {
+    transform: translateY(-5px);
+}
+
+.persona-button:nth-child(4):hover .button-icon {
+    transform: rotate(180deg);
 }
 
 .button-text,
@@ -166,19 +227,74 @@ html, body, #map {
     pointer-events: none;
 }
 
+.button-icon {
+    display: block;
+    position: relative;
+    transition: transform 350ms;
+}
+
 .persona-icon {
     display: block;
     margin: 0 auto;
 }
 
+@-webkit-keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@-o-keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.persona-button--loading .persona-icon-active {
+    opacity: 0;
+    -webkit-animation: hide 2s 0s forwards;
+    -moz-animation: hide 2s 0s forwards;
+    -o-animation: hide 2s 0s forwards;
+    animation: hide 2s 0s forwards;
+}
+
 .persona-icon-active {
-    display: none;
     margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
 }
 
 .persona-button:active .persona-icon-active,
 .persona-button--active .persona-icon-active {
-    display: block;
+    opacity: 1;
 }
 
 .persona-button:active,
@@ -191,7 +307,7 @@ html, body, #map {
 
 .persona-button:active .persona-icon,
 .persona-button--active .persona-icon {
-    display: none;
+    opacity: 0;
 }
 
 .button-text {
